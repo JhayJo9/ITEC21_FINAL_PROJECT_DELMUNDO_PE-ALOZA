@@ -6,7 +6,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using static WinFormsApp2.tic;
+//using static WinFormsApp2.tic;
 
 namespace WinFormsApp2
 {
@@ -16,17 +16,7 @@ namespace WinFormsApp2
         short movement = 0;
         int scorePlayer1;
         int scorePlayer2;
-        public enum Player
-        {
-            x, o
-        }
-
-        Player currentPlayer;
-        Random rnd = new Random();
-        int scorePlayer = 0;
-        int scoreCPU = 0;
-        int movement2 = 0;
-        List<Button> buttons;
+      
         public tik()
         {
             InitializeComponent();
@@ -51,16 +41,7 @@ namespace WinFormsApp2
             b9.Enabled = true; b9.Text = ""; b9.BackColor = Color.White;
             tableLayoutPanel1.Enabled = true;
         }
-        private void ForRest()
-        {
-            buttons = new List<Button> { b1, b2, b3, b4, b5, b6, b7, b8, b9 };
-            foreach (Button bt in buttons)
-            {
-                bt.Enabled = true;
-                bt.Text = "";
-                bt.BackColor = Color.FromArgb(218, 231, 242);
-            }
-        }
+        
         private void buttonS_Click(object sender, EventArgs e)
         {
 

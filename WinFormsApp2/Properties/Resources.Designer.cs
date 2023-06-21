@@ -123,6 +123,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _353450901_651732730147464_7010351 {
+            get {
+                object obj = ResourceManager.GetObject("353450901_651732730147464_7010351", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _47t2 {
             get {
                 object obj = ResourceManager.GetObject("47t2", resourceCulture);
@@ -206,6 +216,16 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap images__2_ {
             get {
                 object obj = ResourceManager.GetObject("images (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__24_ {
+            get {
+                object obj = ResourceManager.GetObject("images (24)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

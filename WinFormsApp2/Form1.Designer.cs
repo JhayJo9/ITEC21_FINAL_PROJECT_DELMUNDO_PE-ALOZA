@@ -35,8 +35,6 @@
             txt_pass = new System.Windows.Forms.TextBox();
             btn_login = new System.Windows.Forms.Button();
             btn_exit = new System.Windows.Forms.Button();
-            pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -44,30 +42,29 @@
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
             label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label1.ForeColor = System.Drawing.Color.Black;
-            label1.Image = Properties.Resources.gd;
+            label1.ForeColor = System.Drawing.Color.White;
             label1.Location = new System.Drawing.Point(41, 53);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(93, 23);
+            label1.Size = new System.Drawing.Size(107, 23);
             label1.TabIndex = 0;
-            label1.Text = "  User ID:  ";
+            label1.Text = "USERNAME:\r\n";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = System.Drawing.Color.Transparent;
             label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label2.ForeColor = System.Drawing.Color.Black;
-            label2.Image = Properties.Resources.gd;
+            label2.ForeColor = System.Drawing.Color.White;
             label2.Location = new System.Drawing.Point(41, 96);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(90, 23);
+            label2.Size = new System.Drawing.Size(110, 23);
             label2.TabIndex = 1;
-            label2.Text = "Password:";
+            label2.Text = "PASSWORD:\r\n";
             // 
             // txt_user
             // 
             txt_user.BackColor = System.Drawing.Color.DarkGoldenrod;
+            txt_user.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             txt_user.Location = new System.Drawing.Point(165, 52);
             txt_user.Name = "txt_user";
             txt_user.Size = new System.Drawing.Size(220, 27);
@@ -76,6 +73,7 @@
             // txt_pass
             // 
             txt_pass.BackColor = System.Drawing.Color.DarkGoldenrod;
+            txt_pass.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             txt_pass.Location = new System.Drawing.Point(165, 96);
             txt_pass.Name = "txt_pass";
             txt_pass.PasswordChar = '*';
@@ -108,22 +106,12 @@
             btn_exit.UseVisualStyleBackColor = true;
             btn_exit.Click += btn_exit_Click;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            pictureBox1.Image = Properties.Resources._351441857_206318178988638_2825366696066516571_n;
-            pictureBox1.Location = new System.Drawing.Point(-4, -2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(575, 183);
-            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackColor = System.Drawing.Color.SeaGreen;
+            BackColor = System.Drawing.Color.White;
+            BackgroundImage = Properties.Resources._353450901_651732730147464_7010351;
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             ClientSize = new System.Drawing.Size(573, 183);
             Controls.Add(btn_exit);
@@ -132,7 +120,6 @@
             Controls.Add(txt_user);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(pictureBox1);
             DoubleBuffered = true;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
@@ -140,7 +127,6 @@
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Login Form";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -153,6 +139,5 @@
         private System.Windows.Forms.TextBox txt_pass;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_exit;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
