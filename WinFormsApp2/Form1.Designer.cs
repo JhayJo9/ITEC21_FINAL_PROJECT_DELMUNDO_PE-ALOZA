@@ -45,12 +45,12 @@
             label1.BackColor = System.Drawing.Color.Transparent;
             label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             label1.ForeColor = System.Drawing.Color.Black;
-            label1.Image = Properties.Resources.images__9__removebg_preview1;
-            label1.Location = new System.Drawing.Point(47, 54);
+            label1.Image = Properties.Resources.gd;
+            label1.Location = new System.Drawing.Point(41, 53);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(73, 23);
+            label1.Size = new System.Drawing.Size(93, 23);
             label1.TabIndex = 0;
-            label1.Text = "User ID:";
+            label1.Text = "  User ID:  ";
             // 
             // label2
             // 
@@ -58,7 +58,7 @@
             label2.BackColor = System.Drawing.Color.Transparent;
             label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             label2.ForeColor = System.Drawing.Color.Black;
-            label2.Image = Properties.Resources.images__9__removebg_preview2;
+            label2.Image = Properties.Resources.gd;
             label2.Location = new System.Drawing.Point(41, 96);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(90, 23);

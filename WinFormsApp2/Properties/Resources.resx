@@ -118,50 +118,44 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="351647856_925997351830902_1435861530976694320_n_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\351647856_925997351830902_1435861530976694320_n_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="31e3517cc9d5dech (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\31e3517cc9d5dech (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images__9_-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images__9_-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images__9_-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images__9_-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bCK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="348361713_1312682249332706_4222577188304713038_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\348361713_1312682249332706_4222577188304713038_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="47t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\47t2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pig (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pig (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="335454862_783148719811640_2590824294984590480_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\335454862_783148719811640_2590824294984590480_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="350221162_273687345038563_2938339687383004408_n-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\350221162_273687345038563_2938339687383004408_n-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images__14__3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images__14__3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images__9_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images__9_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images__9_-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images__9_-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bCK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="350221162_273687345038563_2938339687383004408_n-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\350221162_273687345038563_2938339687383004408_n-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="restart_crop-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\restart_crop-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pig (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pig (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="received_3654478954784803-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\received_3654478954784803-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="348361713_1312682249332706_4222577188304713038_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\348361713_1312682249332706_4222577188304713038_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bCK-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bCK-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pixel-art-speech-balloon-reset-bp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pixel-art-speech-balloon-reset-bp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="353450901_651732730147464_701035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\353450901_651732730147464_701035.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="received_982814002891459" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\received_982814002891459.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carousel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\carousel1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="output-onlinegiftools" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\output-onlinegiftools.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,16 +163,46 @@
   <data name="351441857_206318178988638_2825366696066516571_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\351441857_206318178988638_2825366696066516571_n.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="31e3517cc9d5dech (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\31e3517cc9d5dech (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ivv" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ivv.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pixel-art-speech-balloon-reset-bp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\pixel-art-speech-balloon-reset-bp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="restart_crop-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\restart_crop-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47t2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images__9_-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images__9_-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player1_img_score" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\player1_img_score.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\gd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images (13).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images__9_-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images__9_-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG20220827161846" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMG20220827161846.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="351647856_925997351830902_1435861530976694320_n_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\351647856_925997351830902_1435861530976694320_n_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="f2bbf05b9eadfb3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\f2bbf05b9eadfb3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bCK-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bCK-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images__9_-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images__9_-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player2_img_score" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\player2_img_score.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

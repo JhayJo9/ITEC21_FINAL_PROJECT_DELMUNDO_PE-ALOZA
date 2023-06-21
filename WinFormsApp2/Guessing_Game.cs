@@ -20,8 +20,8 @@ namespace WinFormsApp2
         {
             InitializeComponent();
             loadQuestion();
-          
-           
+
+
         }
         private void loadQuestion()
         {
@@ -69,13 +69,13 @@ namespace WinFormsApp2
                 else if (i > number)
                 {
                     MessageBox.Show("go lower");
-                    // txtEnterNumber.Text = "";
+                    txtEnterNumber.Text = "";
                 }
                 else
                 {
 
                     MessageBox.Show("go higher");
-                    // txtEnterNumber.Text = "";
+                    txtEnterNumber.Text = "";
                 }
 
             }

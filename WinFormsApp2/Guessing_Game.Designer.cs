@@ -70,7 +70,7 @@
             checkbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             checkbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             checkbutton.ForeColor = System.Drawing.Color.White;
-            checkbutton.Location = new System.Drawing.Point(85, 153);
+            checkbutton.Location = new System.Drawing.Point(60, 153);
             checkbutton.Name = "checkbutton";
             checkbutton.Size = new System.Drawing.Size(94, 29);
             checkbutton.TabIndex = 2;
@@ -85,7 +85,7 @@
             button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             button2.ForeColor = System.Drawing.Color.White;
-            button2.Location = new System.Drawing.Point(315, 153);
+            button2.Location = new System.Drawing.Point(349, 153);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(94, 29);
             button2.TabIndex = 3;
@@ -131,9 +131,9 @@
             Btn_play_again.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             Btn_play_again.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             Btn_play_again.ForeColor = System.Drawing.Color.White;
-            Btn_play_again.Location = new System.Drawing.Point(168, 188);
+            Btn_play_again.Location = new System.Drawing.Point(188, 153);
             Btn_play_again.Name = "Btn_play_again";
-            Btn_play_again.Size = new System.Drawing.Size(154, 29);
+            Btn_play_again.Size = new System.Drawing.Size(125, 29);
             Btn_play_again.TabIndex = 7;
             Btn_play_again.Text = "PLAY AGAIN";
             Btn_play_again.UseVisualStyleBackColor = true;
@@ -151,7 +151,6 @@
             BackColor = System.Drawing.Color.White;
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             ClientSize = new System.Drawing.Size(487, 302);
-            ControlBox = false;
             Controls.Add(Btn_play_again);
             Controls.Add(lblguess);
             Controls.Add(lblGuessed);

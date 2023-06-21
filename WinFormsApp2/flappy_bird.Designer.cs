@@ -36,19 +36,17 @@
             gametimer = new System.Windows.Forms.Timer(components);
             ground = new System.Windows.Forms.PictureBox();
             score_txt = new System.Windows.Forms.Label();
-            picbox_restart = new System.Windows.Forms.PictureBox();
-            picbox_exit = new System.Windows.Forms.PictureBox();
+            Go = new System.Windows.Forms.Label();
+            lbl_play = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)pipetop).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pipe_bottom).BeginInit();
             ((System.ComponentModel.ISupportInitialize)bird_ko).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ground).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picbox_restart).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picbox_exit).BeginInit();
             SuspendLayout();
             // 
             // pipetop
             // 
-            pipetop.BackColor = System.Drawing.SystemColors.Highlight;
+            pipetop.BackColor = System.Drawing.Color.Transparent;
             pipetop.BackgroundImage = Properties.Resources._351647856_925997351830902_1435861530976694320_n_1_removebg_preview;
             pipetop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             pipetop.ErrorImage = null;
@@ -103,33 +101,37 @@
             score_txt.AutoSize = true;
             score_txt.BackColor = System.Drawing.Color.Transparent;
             score_txt.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            score_txt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             score_txt.Location = new System.Drawing.Point(44, 599);
             score_txt.Name = "score_txt";
             score_txt.Size = new System.Drawing.Size(111, 41);
             score_txt.TabIndex = 5;
             score_txt.Text = "Score: ";
             // 
-            // picbox_restart
+            // Go
             // 
-            picbox_restart.BackgroundImage = Properties.Resources.restart_crop_removebg_preview;
-            picbox_restart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            picbox_restart.Location = new System.Drawing.Point(307, 241);
-            picbox_restart.Name = "picbox_restart";
-            picbox_restart.Size = new System.Drawing.Size(104, 40);
-            picbox_restart.TabIndex = 7;
-            picbox_restart.TabStop = false;
-            picbox_restart.Click += restartclick_event;
+            Go.AutoSize = true;
+            Go.BackColor = System.Drawing.Color.Transparent;
+            Go.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            Go.Location = new System.Drawing.Point(249, 220);
+            Go.Name = "Go";
+            Go.Size = new System.Drawing.Size(213, 54);
+            Go.TabIndex = 9;
+            Go.Text = "Press R to Restart\r\n  Press Q to Exit";
+            Go.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            Go.Visible = false;
             // 
-            // picbox_exit
+            // lbl_play
             // 
-            picbox_exit.BackgroundImage = Properties.Resources.bCK_removebg_preview;
-            picbox_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            picbox_exit.Location = new System.Drawing.Point(307, 306);
-            picbox_exit.Name = "picbox_exit";
-            picbox_exit.Size = new System.Drawing.Size(104, 36);
-            picbox_exit.TabIndex = 8;
-            picbox_exit.TabStop = false;
-            picbox_exit.Click += exitclick_event;
+            lbl_play.AutoSize = true;
+            lbl_play.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lbl_play.Location = new System.Drawing.Point(313, 248);
+            lbl_play.Name = "lbl_play";
+            lbl_play.Size = new System.Drawing.Size(96, 41);
+            lbl_play.TabIndex = 10;
+            lbl_play.Text = "PLAY";
+            lbl_play.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lbl_play.Click += play_click;
             // 
             // flappy_bird
             // 
@@ -138,9 +140,8 @@
             BackColor = System.Drawing.SystemColors.MenuHighlight;
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             ClientSize = new System.Drawing.Size(687, 658);
-            ControlBox = false;
-            Controls.Add(picbox_exit);
-            Controls.Add(picbox_restart);
+            Controls.Add(lbl_play);
+            Controls.Add(Go);
             Controls.Add(score_txt);
             Controls.Add(bird_ko);
             Controls.Add(ground);
@@ -150,7 +151,7 @@
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "flappy_bird";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "flappy_Bird";
+            Text = "Flying Waddles";
             Load += flappy_bird_Load;
             KeyDown += gamekeyisdown;
             KeyUp += gamekeyisup;
@@ -158,8 +159,6 @@
             ((System.ComponentModel.ISupportInitialize)pipe_bottom).EndInit();
             ((System.ComponentModel.ISupportInitialize)bird_ko).EndInit();
             ((System.ComponentModel.ISupportInitialize)ground).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picbox_restart).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picbox_exit).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -172,7 +171,7 @@
         private System.Windows.Forms.Timer gametimer;
         private System.Windows.Forms.PictureBox ground;
         private System.Windows.Forms.Label score_txt;
-        private System.Windows.Forms.PictureBox picbox_restart;
-        private System.Windows.Forms.PictureBox picbox_exit;
+        private System.Windows.Forms.Label Go;
+        private System.Windows.Forms.Label lbl_play;
     }
 }

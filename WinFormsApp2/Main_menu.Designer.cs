@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_menu));
             label1 = new System.Windows.Forms.Label();
             button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
             button3 = new System.Windows.Forms.Button();
             button4 = new System.Windows.Forms.Button();
             button5 = new System.Windows.Forms.Button();
@@ -69,18 +68,6 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
-            // 
-            button2.BackgroundImage = (System.Drawing.Image)resources.GetObject("button2.BackgroundImage");
-            button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            button2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button2.Location = new System.Drawing.Point(60, 165);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(171, 39);
-            button2.TabIndex = 2;
-            button2.Text = "Space Invader";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             button3.BackColor = System.Drawing.Color.Transparent;
@@ -91,7 +78,7 @@
             button3.Name = "button3";
             button3.Size = new System.Drawing.Size(171, 39);
             button3.TabIndex = 3;
-            button3.Text = "Tik";
+            button3.Text = "Tic Tac Toe";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
@@ -100,7 +87,7 @@
             button4.BackgroundImage = (System.Drawing.Image)resources.GetObject("button4.BackgroundImage");
             button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             button4.Font = new System.Drawing.Font("SimSun", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button4.Location = new System.Drawing.Point(60, 234);
+            button4.Location = new System.Drawing.Point(327, 157);
             button4.Name = "button4";
             button4.Size = new System.Drawing.Size(171, 39);
             button4.TabIndex = 4;
@@ -113,11 +100,11 @@
             button5.BackgroundImage = (System.Drawing.Image)resources.GetObject("button5.BackgroundImage");
             button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             button5.Font = new System.Drawing.Font("SimSun", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button5.Location = new System.Drawing.Point(327, 165);
+            button5.Location = new System.Drawing.Point(60, 157);
             button5.Name = "button5";
             button5.Size = new System.Drawing.Size(171, 39);
             button5.TabIndex = 5;
-            button5.Text = "Flappy Bird";
+            button5.Text = "Flying Waddles";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
@@ -126,7 +113,7 @@
             button6.BackgroundImage = (System.Drawing.Image)resources.GetObject("button6.BackgroundImage");
             button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             button6.Font = new System.Drawing.Font("SimSun", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button6.Location = new System.Drawing.Point(327, 234);
+            button6.Location = new System.Drawing.Point(195, 214);
             button6.Name = "button6";
             button6.Size = new System.Drawing.Size(171, 39);
             button6.TabIndex = 6;
@@ -149,7 +136,7 @@
             // 
             progressBar1.Location = new System.Drawing.Point(156, 279);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new System.Drawing.Size(220, 26);
+            progressBar1.Size = new System.Drawing.Size(239, 26);
             progressBar1.TabIndex = 8;
             progressBar1.Click += progressBar1_Click;
             // 
@@ -183,7 +170,6 @@
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -201,7 +187,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
