@@ -105,7 +105,7 @@
             tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.20213F));
             tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.79787F));
-            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 197F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 198F));
             tableLayoutPanel1.Controls.Add(b9, 2, 2);
             tableLayoutPanel1.Controls.Add(b8, 1, 2);
             tableLayoutPanel1.Controls.Add(b7, 0, 2);
@@ -133,9 +133,9 @@
             b9.FlatAppearance.BorderSize = 7;
             b9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             b9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            b9.Location = new System.Drawing.Point(365, 285);
+            b9.Location = new System.Drawing.Point(364, 285);
             b9.Name = "b9";
-            b9.Size = new System.Drawing.Size(192, 128);
+            b9.Size = new System.Drawing.Size(193, 128);
             b9.TabIndex = 8;
             b9.UseVisualStyleBackColor = false;
             b9.Click += button_click;
@@ -149,7 +149,7 @@
             b8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             b8.Location = new System.Drawing.Point(181, 285);
             b8.Name = "b8";
-            b8.Size = new System.Drawing.Size(178, 128);
+            b8.Size = new System.Drawing.Size(177, 128);
             b8.TabIndex = 7;
             b8.UseVisualStyleBackColor = true;
             b8.Click += button_click;
@@ -175,9 +175,9 @@
             b6.FlatAppearance.BorderSize = 7;
             b6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             b6.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            b6.Location = new System.Drawing.Point(365, 144);
+            b6.Location = new System.Drawing.Point(364, 144);
             b6.Name = "b6";
-            b6.Size = new System.Drawing.Size(192, 135);
+            b6.Size = new System.Drawing.Size(193, 135);
             b6.TabIndex = 5;
             b6.UseVisualStyleBackColor = true;
             b6.Click += button_click;
@@ -191,7 +191,7 @@
             b5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             b5.Location = new System.Drawing.Point(181, 144);
             b5.Name = "b5";
-            b5.Size = new System.Drawing.Size(178, 135);
+            b5.Size = new System.Drawing.Size(177, 135);
             b5.TabIndex = 4;
             b5.UseVisualStyleBackColor = true;
             b5.Click += button_click;
@@ -217,9 +217,9 @@
             b3.FlatAppearance.BorderSize = 7;
             b3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             b3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            b3.Location = new System.Drawing.Point(365, 3);
+            b3.Location = new System.Drawing.Point(364, 3);
             b3.Name = "b3";
-            b3.Size = new System.Drawing.Size(192, 135);
+            b3.Size = new System.Drawing.Size(193, 135);
             b3.TabIndex = 2;
             b3.UseVisualStyleBackColor = true;
             b3.Click += button_click;
@@ -233,7 +233,7 @@
             b2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             b2.Location = new System.Drawing.Point(181, 3);
             b2.Name = "b2";
-            b2.Size = new System.Drawing.Size(178, 135);
+            b2.Size = new System.Drawing.Size(177, 135);
             b2.TabIndex = 1;
             b2.UseVisualStyleBackColor = true;
             b2.Click += button_click;

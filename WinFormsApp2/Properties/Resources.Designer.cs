@@ -133,6 +133,56 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _353644781_160876920319614_365479_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("353644781_160876920319614_365479-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _355490027_203797472186944_515359_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("355490027_203797472186944_515359-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _355648059_995417718158369_425718 {
+            get {
+                object obj = ResourceManager.GetObject("355648059_995417718158369_425718", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _355807839_530701932461654_452475_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("355807839_530701932461654_452475-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _355875621_772702274730688_615971 {
+            get {
+                object obj = ResourceManager.GetObject("355875621_772702274730688_615971", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _47t2 {
             get {
                 object obj = ResourceManager.GetObject("47t2", resourceCulture);
@@ -163,16 +213,6 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap carousel1 {
-            get {
-                object obj = ResourceManager.GetObject("carousel1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap f2bbf05b9eadfb3 {
             get {
                 object obj = ResourceManager.GetObject("f2bbf05b9eadfb3", resourceCulture);
@@ -196,16 +236,6 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap images__13_ {
             get {
                 object obj = ResourceManager.GetObject("images (13)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images__14__3_removebg_preview {
-            get {
-                object obj = ResourceManager.GetObject("images__14__3-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

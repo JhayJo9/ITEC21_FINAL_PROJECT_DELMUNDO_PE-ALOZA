@@ -16,7 +16,7 @@ namespace WinFormsApp2
         short movement = 0;
         int scorePlayer1;
         int scorePlayer2;
-      
+
         public tik()
         {
             InitializeComponent();
@@ -41,7 +41,7 @@ namespace WinFormsApp2
             b9.Enabled = true; b9.Text = ""; b9.BackColor = Color.White;
             tableLayoutPanel1.Enabled = true;
         }
-        
+
         private void buttonS_Click(object sender, EventArgs e)
         {
 
@@ -125,9 +125,9 @@ namespace WinFormsApp2
         private void lblReset(object sender, EventArgs e)
         {
             //scorePlayer1 = 0;
-           // score_player_1.Text = "Score: " + scorePlayer1;
-           // scorePlayer2 = 0;
-           // score_player_2.Text = "Score: " + scorePlayer2;
+            // score_player_1.Text = "Score: " + scorePlayer1;
+            // scorePlayer2 = 0;
+            // score_player_2.Text = "Score: " + scorePlayer2;
             who = 'O';
             movement = 0;
             b1.Enabled = true; b1.Text = ""; b1.BackColor = Color.White;
@@ -143,6 +143,6 @@ namespace WinFormsApp2
 
         }
 
-       
+
     }
 }

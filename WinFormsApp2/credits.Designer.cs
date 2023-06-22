@@ -143,7 +143,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.images__24_;
+            BackgroundImage = Properties.Resources._355875621_772702274730688_615971;
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             ClientSize = new System.Drawing.Size(660, 427);
             Controls.Add(btn_back);
