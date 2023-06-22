@@ -65,8 +65,10 @@ namespace WinFormsApp2
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form tik_1 = new tik();
-            tik_1.Show();
+            //Form tik_1 = new tik();
+          //  tik_1.Show();
+            Form tic_1 = new tic_ai();
+            tic_1.Show();
         }
 
         private void progressBar1_Click(object sender, EventArgs e)

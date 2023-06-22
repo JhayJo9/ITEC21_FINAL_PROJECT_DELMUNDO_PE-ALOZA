@@ -47,7 +47,7 @@
             // pipetop
             // 
             pipetop.BackColor = System.Drawing.Color.Transparent;
-            pipetop.BackgroundImage = Properties.Resources._351647856_925997351830902_1435861530976694320_n_1_removebg_preview;
+            pipetop.BackgroundImage = Properties.Resources._355807839_530701932461654_452475_removebg_preview;
             pipetop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             pipetop.ErrorImage = null;
             pipetop.Location = new System.Drawing.Point(457, 0);
@@ -59,9 +59,9 @@
             // pipe_bottom
             // 
             pipe_bottom.BackColor = System.Drawing.Color.Transparent;
-            pipe_bottom.BackgroundImage = Properties.Resources._350221162_273687345038563_2938339687383004408_n_removebg_preview;
+            pipe_bottom.BackgroundImage = Properties.Resources._355490027_203797472186944_515359_removebg_preview;
             pipe_bottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pipe_bottom.Location = new System.Drawing.Point(363, 430);
+            pipe_bottom.Location = new System.Drawing.Point(376, 431);
             pipe_bottom.Name = "pipe_bottom";
             pipe_bottom.Size = new System.Drawing.Size(146, 135);
             pipe_bottom.TabIndex = 2;
@@ -147,6 +147,7 @@
             Controls.Add(ground);
             Controls.Add(pipe_bottom);
             Controls.Add(pipetop);
+            DoubleBuffered = true;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "flappy_bird";
