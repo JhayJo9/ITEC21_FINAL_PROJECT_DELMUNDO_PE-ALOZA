@@ -248,6 +248,7 @@
             BackgroundImage = Properties.Resources._37f3b3367f7a29c59cd10d0b567dfb21;
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             ClientSize = new System.Drawing.Size(741, 475);
+            ControlBox = false;
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(resetscore);
@@ -268,7 +269,8 @@
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             Name = "tic_ai";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "tic_ai";
+            Text = "Tic Tac Toe vs AI";
+            Load += tic_ai_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);

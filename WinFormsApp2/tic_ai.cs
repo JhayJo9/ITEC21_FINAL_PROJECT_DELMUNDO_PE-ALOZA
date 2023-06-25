@@ -154,5 +154,10 @@ namespace WinFormsApp2
             Form es = new Main_menu();
             es.ShowDialog();
         }
+
+        private void tic_ai_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
