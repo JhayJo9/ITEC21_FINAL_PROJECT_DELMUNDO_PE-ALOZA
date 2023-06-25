@@ -66,7 +66,7 @@ namespace WinFormsApp2
         {
             this.Hide();
             //Form tik_1 = new tik();
-          //  tik_1.Show();
+            //  tik_1.Show();
             Form tic_1 = new tic_ai();
             tic_1.Show();
         }

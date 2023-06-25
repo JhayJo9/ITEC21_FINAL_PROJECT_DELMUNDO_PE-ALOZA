@@ -195,7 +195,17 @@ namespace WinFormsApp2.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _47t2 {
             get {
-                object obj = ResourceManager.GetObject("355807839_530701932461654_452475-removebg-preview", resourceCulture);
+                object obj = ResourceManager.GetObject("47t2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _47t21 {
+            get {
+                object obj = ResourceManager.GetObject("47t21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,16 +243,6 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bCK_removebg_preview {
-            get {
-                object obj = ResourceManager.GetObject("bCK-removebg-preview", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap f2bbf05b9eadfb3 {
             get {
                 object obj = ResourceManager.GetObject("f2bbf05b9eadfb3", resourceCulture);
@@ -256,6 +256,16 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap gd {
             get {
                 object obj = ResourceManager.GetObject("gd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__13_ {
+            get {
+                object obj = ResourceManager.GetObject("images (13)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

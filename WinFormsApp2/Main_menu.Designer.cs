@@ -123,7 +123,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources._47t2;
+            pictureBox1.Image = Properties.Resources._47t21;
             pictureBox1.Location = new System.Drawing.Point(0, -1);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new System.Drawing.Size(557, 318);
